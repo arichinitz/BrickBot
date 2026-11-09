@@ -17,6 +17,13 @@ A LEGO brick sorting machine that sorts based on color and size
 
 ## How to Use
 Dump bricks into the holding bin, and BrickBot will take care of the rest! Wait time will vary based on amount of LEGOs
+
+## How BrickBot works
+- Bricks are moved from the bin to the chamber on a custom conveyor belt
+- Bricks are fed one by one into the chamber, where color is determined
+- Chamber orients to one of three directions (one of three colors), and solenoid (which is holding the brick in place) releases the brick
+- Brick falls into its respective color track, falling down its size hole
+
 ## Results
 BrickBot sorts three colors and three sizes
 ## Future Improvements
